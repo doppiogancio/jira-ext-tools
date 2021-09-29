@@ -1,0 +1,21 @@
+{
+  "name": "Branch Name",
+  "description": "Get a valid git branch name from a Jira task page",
+  "version": "1.0",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "tabs",
+    "https://maxcdn.bootstrapcdn.com/*",
+    "http://getbootstrap.com/*",
+    "https://sourceability.atlassian.net/browse/PM-*",
+    "https://sourceability.atlassian.net/secure/RapidBoard.jspa?*"
+  ]
+}
